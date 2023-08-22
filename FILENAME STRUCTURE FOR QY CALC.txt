@@ -1,0 +1,7 @@
+The script utilizes strict filename structure. Filename sections are split using '_' symbol. The total measurement count inside a folder is calculated by
+determining the number of samples with 'S_' start. The following is an example of how the filename should look like:
+
+S_sampleinfo0_sampleinfo1_sampleinfo2_exp20ms_avg100x_@450nm.txp
+
+'sampleinfo0_sampleinfo1_sampleinfo2' info can have more or fewer info sections. This needs to be accounted for in the script. 
+IMPORTANT 'sampleinfo0_sampleinfo1_sampleinfo2' section must be the same for 'A_', 'B_' and 'C_' files!
